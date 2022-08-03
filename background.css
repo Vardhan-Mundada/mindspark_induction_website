@@ -1,0 +1,164 @@
+  
+  .cube1 {
+    position: fixed;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #003298;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cubeiii 10s ease-in forwards infinite;
+  }
+  
+  .cube2 {
+    position: fixed;
+    top: 20vh;
+    left: 15vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #cb1726;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 10s ease-in forwards infinite;
+    animation-delay: 1s;
+  }
+  .cube3 {
+    position: fixed;
+    top: 60vh;
+    left: 75vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #4e61ef;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cubeii 10s ease-in forwards infinite;
+    animation-delay: 2s;
+  }
+  
+  .cube4 {
+    position: fixed;
+    top: 30vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #cb1726;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 10s ease-in forwards infinite;
+    animation-delay: 3s;
+  }
+  .cube5 {
+    position: fixed;
+    top: 80vh;
+    left: 85vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #4e61ef;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 5s ease-in forwards infinite;
+    animation-delay: 3.5s;
+  }
+  .cube6 {
+    position: fixed;
+    top: 80vh;
+    left: 10vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #ef4e53;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-30%, -70%);
+    animation: cubeii 6s ease-in forwards infinite;
+    animation-delay: 2s;
+  }
+  .cube7 {
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    width: 2vh;
+    height: 2vh;
+    border: solid 1px #4e61ef;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-20%, -30%);
+    animation: cubeiii 8s ease-in forwards infinite;
+    /* animation-delay: 3s; */
+  }
+  .cube8 {
+    position: fixed;
+    top: 70vh;
+    left: 65vw;
+    width: 2vh;
+    height: 2vh;
+    border: solid 1px #cb1726;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 5s ease-in forwards infinite;
+    animation-delay: 3.5s;
+  }
+  .cube9 {
+    position: fixed;
+    top: 40vh;
+    left: 20vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #4e61ef;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cubeiii 6s ease-in forwards infinite;
+  
+  }
+  .cube10 {
+    position: fixed;
+    top: 15vh;
+    left: 75vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #4e61ef;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cubeiiii 10s ease-in forwards infinite;
+    animation-delay: 3s;
+  }
+  @keyframes cube {
+    from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      transform: scale(10) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes cubeii {
+    from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      transform: scale(8) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+    
+  } 
+  @keyframes cubeiii {
+        from {
+          transform: scale(0) rotate(0deg) translate(-50%, -50%);
+          opacity: 0.8;
+        }
+        to {
+          transform: scale(5) rotate(960deg) translate(-50%, -50%);
+          opacity: 0;
+        }
+  }
+  @keyframes cubeiiii {
+    from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 0.8;
+    }
+    to {
+      transform: scale(9) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+}
